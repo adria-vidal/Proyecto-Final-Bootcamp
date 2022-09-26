@@ -30,7 +30,11 @@ const drop = (ev) => {
     return objeto.id == data;
   });
   precioTotal += precio.valor;
-  precioCaja.innerHTML = `${precioTotal} €`;
-     console.log('he soltado..', data);
-     console.log();
+  precioCaja.innerHTML = `${precioTotal.toFixed(2)} €`;
+  console.log('he soltado..', data);
+  console.log();
+};
+const reset = () => {
+  precioTotal = 0;
+  precioCaja.innerHTML = 0 + " €";
 };
