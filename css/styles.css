@@ -41,13 +41,18 @@ body {
   background-size: 100vh */
 }
 .dinero {
-  height: 17em;
   padding-top: 2em;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.dinero img:hover {
+  transition-duration: 0.7s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .cart {
-  width: 40em;
+  width: 100%;
   background-color: rgb(236, 210, 154);
 
   height: 100vh;
@@ -59,25 +64,27 @@ body {
 }
 .cart img {
   width: 18em;
-  display: block;
-  position: relative;
-  right: 3.9em;
+}
+#precioCaja {
+  align-items: center;
+  justify-content: center;
 }
 .caja {
-  width: 5em;
-  height: 2.2em;
+  width: 7.5%;
+  height: 2.5em;
   z-index: 1;
   position: absolute;
-  top: 1.8em;
+  top: 26.5%;
+  right: 12.5%;
   background-color: rgba(0, 0, 0, 0.922);
   color: #4caf50;
   font-size: large;
-  
 }
 
 .picture {
   height: 6em;
 }
+
 .button {
   background-color: #4caf50; /* Green */
   border: none;
@@ -107,4 +114,37 @@ body {
   transition-duration: 0.7s;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* TABLA recuento */
+.styled-table {
+  width: 100%;
+  font-size: 1em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+.styled-table thead tr {
+  background-color: #980081;
+  color: #ffffff;
+  text-align: middle;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+td{
+  
+}
+
+
+.picture-table {
+  height: 2em;
+  width: 2em;
+  
 }
