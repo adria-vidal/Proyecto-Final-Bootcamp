@@ -12,7 +12,7 @@ let efectivo = [
 ];
 
 let precioCaja = document.getElementById('precioCaja');
-let precioTotal = 0;
+let precioTotal = 0.00;
 precioCaja.innerHTML = `${precioTotal} €`;
 
 const drag = (ev) => {
@@ -35,6 +35,6 @@ const drop = (ev) => {
   console.log();
 };
 const reset = () => {
-  precioTotal = 0;
-  precioCaja.innerHTML = 0 + " €";
+  precioTotal = 0.00;
+  precioCaja.innerHTML = 0.00 + " €";
 };

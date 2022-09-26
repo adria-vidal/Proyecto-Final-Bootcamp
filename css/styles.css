@@ -1,66 +1,83 @@
 body {
-    margin: 0;
-    padding: 0;
-  
-    height: 100vh;
-    /* width: 100vw; */
-  
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .general {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .showcase {
-    width: 56em;
-    /* background-color: crimson; */
-  
-    height:100vh;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .coin{
-    height: 22em;
-    width: 48em;
-    /* background-color: dodgerblue; */
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 10em;
-  }
-  .dinero {
-    height: 17em;
-    padding-top: 2em;
-    display: flex;
-    justify-content: center;
-  }
-  .cart {
-    width: 40em;
-    background-color: rgb(236, 210, 154);
-  
-    height: 100vh;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .picture {
-    height: 8em;
-  }
-  .button{
-    background-color: #4CAF50; /* Green */
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  /* width: 100vw; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.general {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase {
+  width: 56em;
+  /* background-color: crimson; */
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coin {
+  height: 22em;
+  width: 48em;
+  /* background-color: dodgerblue; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 10em;
+  /* background-image: url(/img/bandeja.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vh */
+}
+.dinero {
+  height: 17em;
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+.cart {
+  width: 40em;
+  background-color: rgb(236, 210, 154);
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart img {
+  width: 18em;
+  display: block;
+  position: relative;
+  right: 3.9em;
+}
+.caja {
+  z-index: 1;
+  position: absolute;
+  top: 12.1em;
+  background-color: rgba(0, 0, 0, 0.922);
+  color: #4caf50;
+  padding: 12px 22px;
+  font-size: large;
+}
+
+.picture {
+  height: 6em;
+}
+.button {
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -72,9 +89,9 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-duration: 0.5s;
-  }
-  .button:hover {
-    background-color: #4CAF50; /* Green */
+}
+.button:hover {
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -86,5 +103,6 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.7s; /* Safari */
   transition-duration: 0.7s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
