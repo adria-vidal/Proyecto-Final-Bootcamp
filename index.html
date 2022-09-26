@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="general">
+      <div class="showcase">
+        <div class="coin">
+          <div class="dinero">
+            <img
+              src="img/5_euro_cent.svg"
+              alt="5centimos"
+              class="picture"
+              id="coin-5"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/10cent.svg"
+              alt=""
+              class="picture"
+              id="coin-10"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/20cent.svg"
+              alt=""
+              class="picture"
+              id="coin-20"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/50cent.svg"
+              alt=""
+              class="picture"
+              id="coin-50"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/1euro.svg"
+              alt=""
+              class="picture"
+              id="coin-1"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/2euro.svg"
+              alt=""
+              class="picture"
+              id="coin-2"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/5-Euro.svg"
+              alt=""
+              class="picture"
+              id="banknote-5"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/10-Euro.svg"
+              alt=""
+              class="picture"
+              id="banknote-10"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/20-Euro.svg"
+              alt=""
+              class="picture"
+              id="banknote-20"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div class="dinero">
+            <img
+              src="img/50-Euro.svg"
+              alt=""
+              class="picture"
+              id="banknote-50"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="cart">
+        <div
+          class="caja"
+          id="precioCaja"
+          
+        ></div>
+        <img src="img/cajero.png" alt="cajero" ondrop="drop(event)"
+        ondragover="allowDrop(event)" />
+        
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
