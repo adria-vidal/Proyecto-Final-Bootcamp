@@ -64,13 +64,15 @@ body {
   right: 3.9em;
 }
 .caja {
+  width: 5em;
+  height: 2.2em;
   z-index: 1;
   position: absolute;
-  top: 12.1em;
+  top: 1.8em;
   background-color: rgba(0, 0, 0, 0.922);
   color: #4caf50;
-  padding: 12px 22px;
   font-size: large;
+  
 }
 
 .picture {
