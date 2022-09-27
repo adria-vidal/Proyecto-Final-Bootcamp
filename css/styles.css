@@ -27,6 +27,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(77, 76, 76);
+  border-radius: 5%;
+  margin: 2%;
 }
 .coin {
   height: 22em;
@@ -49,13 +52,15 @@ body {
 .dinero img:hover {
   transition-duration: 0.7s;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    0 17px 50px 0 rgba(207, 206, 206, 0.937);
 }
 .cart {
   width: 100%;
   background-color: rgb(236, 210, 154);
 
   height: 100vh;
+  border-radius: 20%;
+  margin: 5%;
 
   display: flex;
   flex-direction: column;
@@ -70,12 +75,12 @@ body {
   justify-content: center;
 }
 .caja {
-  width: 7.5%;
+  width: 6%;
   height: 2.5em;
   z-index: 1;
   position: absolute;
-  top: 26.5%;
-  right: 12.5%;
+  top: 29%;
+  right: 16%;
   background-color: rgba(0, 0, 0, 0.922);
   color: #4caf50;
   font-size: large;
@@ -84,9 +89,11 @@ body {
 .picture {
   height: 6em;
 }
-
+.circle{
+  border-radius: 50%;
+}
 .button {
-  background-color: #4caf50; /* Green */
+  background-color: #7ca07d; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -98,6 +105,7 @@ body {
   cursor: pointer;
   -webkit-transition-duration: 0.5s; /* Safari */
   transition-duration: 0.5s;
+  border-radius: 5%;
 }
 .button:hover {
   background-color: #4caf50; /* Green */

@@ -15,7 +15,7 @@
             <img
               src="img/5_euro_cent.svg"
               alt="5centimos"
-              class="picture"
+              class="picture circle"
               id="coin-5"
               draggable="true"
               ondragstart="drag(event)"
@@ -26,7 +26,7 @@
             <img
               src="img/10cent.svg"
               alt=""
-              class="picture"
+              class="picture circle"
               id="coin-10"
               draggable="true"
               ondragstart="drag(event)"
@@ -37,7 +37,7 @@
             <img
               src="img/20cent.svg"
               alt=""
-              class="picture"
+              class="picture circle"
               id="coin-20"
               draggable="true"
               ondragstart="drag(event)"
@@ -48,7 +48,7 @@
             <img
               src="img/50cent.svg"
               alt=""
-              class="picture"
+              class="picture circle"
               id="coin-50"
               draggable="true"
               ondragstart="drag(event)"
@@ -59,7 +59,7 @@
             <img
               src="img/1euro.svg"
               alt=""
-              class="picture"
+              class="picture circle"
               id="coin-1"
               draggable="true"
               ondragstart="drag(event)"
@@ -70,7 +70,7 @@
             <img
               src="img/2euro.svg"
               alt=""
-              class="picture"
+              class="picture circle"
               id="coin-2"
               draggable="true"
               ondragstart="drag(event)"
@@ -131,10 +131,10 @@
           ondrop="drop(event)"
           ondragover="allowDrop(event)"
         />
-        <button class="button" onclick="reset()">Retirar</button>
+        <div class="button" onclick="reset()">Retirar</div>
         
         
-        <table class="styled-table" id="tabla-recuento"> 
+       <!-- <table class="styled-table" id="tabla-recuento">   
          <thead>
            <tr>
              <th>TIPO</th>
@@ -188,18 +188,15 @@
              <td><img src="img/1euro.svg"
                alt=""
                class="picture-table" /></td>
-             <td></td>
+             <td id="euro"></td>
              <td><img src="img/50-Euro.svg"
                alt=""
                class="picture-table" /></td>
              <td></td>
            </tr>
-           <tr>
-             <td></td>
-             <td></td>
-           </tr>
+           
          </tbody>
-       </table> 
+       </table>   -->
     </div>
     </div>
 

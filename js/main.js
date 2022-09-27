@@ -15,8 +15,11 @@ let precioCaja = document.getElementById('precioCaja');
 let precioTotal = 0.00;
 precioCaja.innerHTML = `${precioTotal} €`;
 
+let dineroRegistrado = []
+
 const drag = (ev) => {
   ev.dataTransfer.setData('text', ev.target.id);
+  
 };
 const allowDrop = (ev) => {
   //cancelamos el evento si lo permite
@@ -26,15 +29,32 @@ const allowDrop = (ev) => {
 const drop = (ev) => {
   ev.preventDefault();
   let data = ev.dataTransfer.getData('text');
+  
   let precio = efectivo.find((objeto) => {
     return objeto.id == data;
   });
   precioTotal += precio.valor;
   precioCaja.innerHTML = `${precioTotal.toFixed(2)} €`;
   console.log('he soltado..', data);
-  console.log();
+  dineroRegistrado.push(data)
+  console.log(dineroRegistrado);
+  
 };
 const reset = () => {
   precioTotal = 0.00;
   precioCaja.innerHTML = 0.00 + " €";
 };
+const recuento = (array) =>{
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    switch (element) {
+      case "coin-5":
+        
+        break;
+    
+      default:
+        break;
+    }
+    
+  }
+}
