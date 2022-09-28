@@ -19,6 +19,9 @@ let dineroRegistrado = []
 
 const drag = (ev) => {
   ev.dataTransfer.setData('text', ev.target.id);
+  // let borrar = efectivo.find((objeto) =>{
+  //   borrar.id
+  // })
   
 };
 const allowDrop = (ev) => {
@@ -33,6 +36,7 @@ const drop = (ev) => {
   let precio = efectivo.find((objeto) => {
     return objeto.id == data;
   });
+
   precioTotal += precio.valor;
   precioCaja.innerHTML = `${precioTotal.toFixed(2)} €`;
   console.log('he soltado..', data);
@@ -43,6 +47,7 @@ const drop = (ev) => {
 const reset = () => {
   precioTotal = 0.00;
   precioCaja.innerHTML = 0.00 + " €";
+  // dineroRegistrado.shift()
 };
 const recuento = (array) =>{
   for (let i = 0; i < array.length; i++) {

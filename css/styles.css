@@ -76,14 +76,14 @@ body {
 }
 .caja {
   width: 6%;
-  height: 2.5em;
+  height: 2.3em;
   z-index: 1;
   position: absolute;
   top: 29%;
   right: 16%;
   background-color: rgba(0, 0, 0, 0.922);
   color: #4caf50;
-  font-size: large;
+  font-size: 22px;
 }
 
 .picture {
@@ -155,4 +155,7 @@ td{
   height: 2em;
   width: 2em;
   
+}
+.ocultar{
+  visibility: hidden;
 }
