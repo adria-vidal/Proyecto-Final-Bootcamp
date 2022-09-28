@@ -3,7 +3,7 @@ Creación de un show case utilizando lo aprendido en Bootcamp con HTML, CSS y JS
 
 # Show Case
 
-_Proyecto en el cuál maquetaremos una estantería de productos y la haremos dinámica a través del lenguaje JavaScript para arrastrarlo a una cesta y vaya contando o descantando un marcador_
+_Proyecto en el cuál maquetaremos una serie de elementos en este caso, los distintos tipos de monedas y billetes, y la haremos dinámica para que se arrastren a una caja registradora, la cual irá sumando el dinero según que moneda o billete se le introduzca._
 
 ## Comenzando 🚀
 
@@ -14,49 +14,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_No se necesita instalar nada, solo tener un navegador para abrir el archivo_
 
-```
-Da un ejemplo
-```
 
-### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ## Despliegue 📦
 
@@ -64,36 +26,29 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
+* [HTML](https://devdocs.io/html/) - Para crear la estructura de la web
+* [CSS](https://devdocs.io/css/)- Para dar estilo a la web 
+* [JAVASCRIPT](https://devdocs.io/javascript/) - Usado para hacer la web dinámica
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Usamos [Github](https://github.com/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/adria-vidal/Proyecto-Final-Bootcamp).
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Adrià Vidal** - *Trabajo Inicial* - [adria-vidal](https://github.com/adria-vidal)
 
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+ 
 
-## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
