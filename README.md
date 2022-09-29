@@ -6,15 +6,18 @@ Creación de un show case utilizando lo aprendido en Bootcamp con HTML, CSS y JS
 
 _Realizar una app funcional la cual podamos arrastrar varios elementos y soltarlos a un carrito o una caja registradora en este caso, para que un contador vaya sumando el valor quetenga cada elemento, e implementar un botón de resetearlo._
 
-# Tecnologias
-![html](/img/html-5.png)
-![css](/img/css-3.png)
+## Tecnologias 🛠️
 
-![cap](/img/js.png)
+- ![cap](img/html-5.png)[HTML](https://devdocs.io/html/) - Para crear la estructura de la web
+
+- ![css](img/css-3%20.png)[CSS](https://devdocs.io/css/)- Para dar estilo a la web    
+- ![css](img/js.png) [JAVASCRIPT](https://devdocs.io/javascript/) - Usado para hacer la web dinámica
 ## Comenzando 🚀
 
 _La interfaz de la app que encontraremos al ejecutarla será esta que encontramos a continuación._
-![cap](/img/pages.PNG)
+![cap](img/interfaz.PNG)
+_Arrastrando cualquiera de los elementos a la caja, hará que el marcador aumente y nos lo indique._
+![cap](img/arrastrar.png)
 
 Para ejecutar la aplicación pulsa [DEPLOY](https://github.com/adria-vidal)
 
@@ -22,15 +25,10 @@ Para ejecutar la aplicación pulsa [DEPLOY](https://github.com/adria-vidal)
 
 _No se necesita instalar nada, solo tener un navegador para abrir el archivo_
 
-## Despliegue 📦
+##Acceso y Despliegue  📁
 
 _Acceder al repositorio del proyecto y pulsar sobre github-pages en la parte inferior derecha y a continuación pulsar "View Deployment"_
 
-## Construido con 🛠️
-
-- [HTML](https://devdocs.io/html/) - Para crear la estructura de la web
-- [CSS](https://devdocs.io/css/)- Para dar estilo a la web
-- [JAVASCRIPT](https://devdocs.io/javascript/) - Usado para hacer la web dinámica
 
 ## Implementaciones futuras 📌
 
@@ -46,7 +44,9 @@ Usamos [Github](https://github.com/) para el versionado. Para todas las versione
 
 1. Declaramos un objeto con todas las posibles monedas y billetes que podemos ingresar en la caja registradora con su respectivo valor
 
-![cap](/img/code-object.png) 2.
+![cap](img/code-object.png)
+ 2.Estas serán las funciones que se activarán al arrastrar y soltar los elementos en el cual obtendremos el identificador del objeto al arrastrar y al soltar obtendremos el valor de dicho elemento sumandolo y pasandolo al HTML para mostrarlo por pantalla
+ ![cap](img/funciones.png)
 
 ## Autores ✒️
 
