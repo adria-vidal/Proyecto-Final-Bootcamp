@@ -45,7 +45,14 @@ const drop = (ev) => {
 const reset = () => {
   precioTotal = 0.0;
   precioCaja.innerHTML = 0.0 + ' €';
-  const resultado = dineroRegistrado.reduce((prev, cur) => ((prev[cur] = prev[cur] + 1 || 1), prev), {})
+  /* Counting the number of times each element appears in the array. */
+  /* prev: The accumulator. */
+  /* value: The current value of the array. */
+  const resultado = dineroRegistrado.reduce(
+    (cont, value) => ((cont[value] = cont[value] + 1 || 1), cont ),
+    {}
+  );
+
   console.log(resultado);
 
   // for (let i = 0; i < dineroRegistrado.length; i++) {
@@ -94,4 +101,3 @@ const recuento = (array) => {
   precioTotal = 0.0;
   precioCaja.innerHTML = 0.0 + ' €';
 };
-
