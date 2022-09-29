@@ -13,15 +13,12 @@ let efectivo = [
 
 let precioCaja = document.getElementById('precioCaja');
 let precioTotal = 0.0;
-precioCaja.innerHTML = `${precioTotal} €`;
-
 let dineroRegistrado = [];
+
+precioCaja.innerHTML = `${precioTotal} €`;
 
 const drag = (ev) => {
   ev.dataTransfer.setData('text', ev.target.id);
-  // let borrar = efectivo.find((objeto) =>{
-  //   borrar.id
-  // })
 };
 const allowDrop = (ev) => {
   //cancelamos el evento si lo permite
@@ -31,15 +28,15 @@ const allowDrop = (ev) => {
 const drop = (ev) => {
   ev.preventDefault();
   let data = ev.dataTransfer.getData('text');
-
   let precio = efectivo.find((objeto) => {
     return objeto.id == data;
   });
 
   precioTotal += precio.valor;
   precioCaja.innerHTML = `${precioTotal.toFixed(2)} €`;
-  console.log('he soltado..', data);
   dineroRegistrado.push(data);
+
+  console.log('he soltado..', data);
   console.log(dineroRegistrado);
 };
 const reset = () => {
@@ -49,7 +46,7 @@ const reset = () => {
   /* prev: The accumulator. */
   /* value: The current value of the array. */
   const resultado = dineroRegistrado.reduce(
-    (cont, value) => ((cont[value] = cont[value] + 1 || 1), cont ),
+    (cont, value) => ((cont[value] = cont[value] + 1 || 1), cont),
     {}
   );
 
@@ -96,8 +93,4 @@ const reset = () => {
   //   }
   // }
   // dineroRegistrado.shift()
-};
-const recuento = (array) => {
-  precioTotal = 0.0;
-  precioCaja.innerHTML = 0.0 + ' €';
 };
