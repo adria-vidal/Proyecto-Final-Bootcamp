@@ -17,7 +17,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _No se necesita instalar nada, solo tener un navegador para abrir el archivo_
 
 
-
+![cap](/img/)
 
 
 ## Despliegue 📦
