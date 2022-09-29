@@ -6,7 +6,7 @@ Creación de un show case utilizando lo aprendido en Bootcamp con HTML, CSS y JS
 _Proyecto en el cuál maquetaremos una serie de elementos en este caso, los distintos tipos de monedas y billetes, y la haremos dinámica para que se arrastren a una caja registradora, la cual irá sumando el dinero según que moneda o billete se le introduzca._
 
 ## Comenzando 🚀
-
+[text](/Proyecto-Final-Bootcamp/img/code-object.png)
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
