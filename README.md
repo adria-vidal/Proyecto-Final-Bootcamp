@@ -2,10 +2,15 @@
 
 Creación de un show case utilizando lo aprendido en Bootcamp con HTML, CSS y JS
 
-# Show Case
+# Objetivos
 
-_Proyecto en el cuál maquetaremos una serie de elementos, en este caso, los distintos tipos de monedas y billetes de la Eurozona, y la haremos dinámica para que se pueda arrastrar a una caja registradora, la cual irá sumando el dinero según que moneda o billete se le introduzca._
+_Realizar una app funcional la cual podamos arrastrar varios elementos y soltarlos a un carrito o una caja registradora en este caso, para que un contador vaya sumando el valor quetenga cada elemento, e implementar un botón de resetearlo._
 
+# Tecnologias
+![html](/img/html-5.png)
+![css](/img/css-3.png)
+
+![cap](/img/js.png)
 ## Comenzando 🚀
 
 _La interfaz de la app que encontraremos al ejecutarla será esta que encontramos a continuación._
