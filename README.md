@@ -25,7 +25,7 @@ Para ejecutar la aplicación pulsa [DEPLOY](https://github.com/adria-vidal)
 
 _No se necesita instalar nada, solo tener un navegador para abrir el archivo_
 
-##Acceso y Despliegue  📁
+## Acceso y Despliegue  📁
 
 _Acceder al repositorio del proyecto y pulsar sobre github-pages en la parte inferior derecha y a continuación pulsar "View Deployment"_
 
