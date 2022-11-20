@@ -19,7 +19,7 @@ _La interfaz de la app que encontraremos al ejecutarla será esta que encontramo
 _Arrastrando cualquiera de los elementos a la caja, hará que el marcador aumente y nos lo indique._
 ![cap](img/arrastrar.png)
 
-Para ejecutar la aplicación pulsa [DEPLOY](https://github.com/adria-vidal)
+Para ejecutar la aplicación pulsa [DEPLOY](https://adria-vidal.github.io/Proyecto-Final-Bootcamp/)
 
 ### Pre-requisitos 📋
 
@@ -27,7 +27,7 @@ _No se necesita instalar nada, solo tener un navegador para abrir el archivo_
 
 ## Acceso y Despliegue  📁
 
-_Acceder al repositorio del proyecto y pulsar sobre github-pages en la parte inferior derecha y a continuación pulsar "View Deployment"_
+_Acceder al repositorio del proyecto y pulsar el link de la descripción o pulsa [Aquí](https://adria-vidal.github.io/Proyecto-Final-Bootcamp/)  _
 
 
 ## Implementaciones futuras 📌
